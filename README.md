@@ -1,4 +1,5 @@
 # MarketPulse-Analysis-Engine
+![MarketPulse Dashboard Preview](dashboard_preview.png)
 A Python-based financial dashboard for real-time technical analysis and momentum tracking.
 
 A high-resiliency financial data tool built in Python.
