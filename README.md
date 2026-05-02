@@ -1,4 +1,4 @@
-# MarketPulse-Analysis-Engine
+# MarketPulse-Intelligence-Suite
 Project Components
 1. Asset Intelligence Detail Engine (market_pulse.py)
 ![MarketPulse Dashboard Preview](dashboard_preview.png)
