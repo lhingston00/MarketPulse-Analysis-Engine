@@ -11,6 +11,7 @@ Quantitative Signal: Automated 20-Day Simple Moving Average (SMA) trend identifi
 Use Case: Identifying precise entry and exit points for high-conviction trades.
 
 2. Strategic Portfolio Mapper (portfolio_comparator.py)
+![Strategic Portfolio Mapper Preview](dashboard_preview_strategic_mapping.png)
 A macro-level decision tool for analysing risk-adjusted returns across diverse asset classes.
 
 Core Function: Dynamic user-input for real-time comparative analysis.
