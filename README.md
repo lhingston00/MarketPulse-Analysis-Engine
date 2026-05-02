@@ -1,7 +1,7 @@
 # MarketPulse-Analysis-Engine
 Project Components
 1. Asset Intelligence Detail Engine (market_pulse.py)
-2. ![MarketPulse Dashboard Preview](dashboard_preview.png)
+![MarketPulse Dashboard Preview](dashboard_preview.png)
 A tactical tool designed for high-fidelity visualisation of individual market assets.
 
 Core Function: Synchronises interactive Candlestick charts with Market Volume subplots.
