@@ -1,20 +1,29 @@
 # MarketPulse-Analysis-Engine
-![MarketPulse Dashboard Preview](dashboard_preview.png)
-A Python-based financial dashboard for real-time technical analysis and momentum tracking.
+Project Components
+1. Asset Intelligence Detail Engine (market_pulse.py)
+2. ![MarketPulse Dashboard Preview](dashboard_preview.png)
+A tactical tool designed for high-fidelity visualisation of individual market assets.
 
-A high-resiliency financial data tool built in Python.
+Core Function: Synchronises interactive Candlestick charts with Market Volume subplots.
 
-Key Features:
-Real-Time Ingestion: Integrates with the YFinance API to process time-series market data.
+Quantitative Signal: Automated 20-Day Simple Moving Average (SMA) trend identification.
 
-Momentum Analysis: Implements a 20-day Simple Moving Average (SMA) to identify trend shifts.
+Use Case: Identifying precise entry and exit points for high-conviction trades.
 
-Defensive Programming: Built-in validation gates to prevent system crashes on invalid ticker inputs (Cybersecurity focus).
+2. Strategic Portfolio Mapper (portfolio_comparator.py)
+A macro-level decision tool for analysing risk-adjusted returns across diverse asset classes.
 
-Technical Stack:
-Language: Python 3.x
+Core Function: Dynamic user-input for real-time comparative analysis.
 
-Libraries: Pandas (Data Wrangling), Plotly (Interactive Visuals), YFinance (Market Data)
+Quantitative Model: Annualised Volatility vs. Cumulative Return quadrant mapping.
 
-How to Run:
-python3 market_pulse.py
+Key Metric: Integrated "Efficiency Score" (a simplified Sharpe Ratio) to identify "Alpha" within a portfolio.
+
+Technical Methodology
+To ensure institutional-grade accuracy, the suite employs the following logic:
+
+Data Normalisation: Automated handling of MultiIndex dataframes and time-series alignment.
+
+Risk Modelling: Volatility is annualised using the square root of time (252 trading days) to ensure comparability across Equities, Forex, and Crypto.
+
+Defensive Programming: Implementation of validation gateways to intercept malformed API requests and handle delisted tickers gracefully.
